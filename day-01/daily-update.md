@@ -12,7 +12,7 @@
 - Created the public training repository.
 
 ### Evidence
-- **Repository:** https://github.com/ahdevworker03/training-exercises
+- **Repository:** https://github.com/ahdevworker03/solving-training-exercises
 - **Exercise directory:** `day-01/`
 - **Executable solutions:** Five JavaScript files, with expected outputs observed in local terminal executions.
 - **Written answers:** `day-01/written-answers.md`
