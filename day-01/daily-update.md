@@ -5,26 +5,27 @@
 **Focus:** JavaScript Fundamentals (Chapters A–C)
 
 ### Done Today
-- Studied JavaScript runtime, Node.js, syntax, variables, data types, operators, conditions, and loops.
+- Studied JavaScript runtimes, Node.js, variables, data types, operators, conditions, and loops.
 - Completed all 13 assigned exercises and knowledge checks across Chapters A–C.
-- Practiced writing, predicting, debugging, and explaining JavaScript behavior.
-- Organized Day 1 exercise files and documented written answers.
+- Practiced writing JavaScript, predicting outputs, debugging errors, and explaining code behavior.
+- Organized executable solutions and documented written answers.
+- Created the public training repository.
 
 ### Evidence
-- **Workspace:** `~/training-exercises/day-01/`
-- **Executable solutions:** 5 JavaScript files.
-- **Written answers:** `written-answers.md`.
+- **Repository:** https://github.com/ahdevworker03/training-exercises
+- **Exercise directory:** `day-01/`
+- **Executable solutions:** Five JavaScript files, with expected outputs observed in local terminal executions.
+- **Written answers:** `day-01/written-answers.md`
 - **Runtime:** Node.js v24.22.3.
-- **Verification:** All five executable solutions produced their expected terminal outputs.
-- **Review:** Exercises and knowledge checks reviewed through ChatGPT, with mistakes corrected.
-- **Repository:** Local files only; GitHub repository not yet created.
+- **Review:** Completed through ChatGPT, including corrections to initial mistakes.
+- **GitHub:** Day 1 exercise files and documentation confirmed on `main`.
 
 ### Next Action
-- Day 2: Study JavaScript Chapters D–E (Functions, Scope and Execution).
-- Complete the assigned exercises and knowledge checks.
-- Begin Git fundamentals and the official Git practice lab.
-- Initialize the training repository and preserve Day 1 work.
+- Study Chapters D–E: Functions, Scope and Execution.
+- Complete D and E exercises and knowledge checks.
+- Begin the official Git fundamentals practice lab.
+- Verify local Git configuration and practice the working-tree, staging, and commit workflow.
 
 ### Blockers / Help Needed
 - No unresolved JavaScript learning blockers.
-- GitHub repository and remote review handoff remain pending.
+- Git workflow exercises and formal instructor review have not yet been completed.
