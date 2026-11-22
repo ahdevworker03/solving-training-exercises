@@ -20,4 +20,4 @@ The exercise was conducted in the actual `solving-training-exercises` repository
 4. Resolved the markers and used `Day 3: Practicing conflict resolution on branches A and B.` as the final line.
 5. Local Git graph showed merge commit `c3757c0`, with parents on branches A and B. The final `git status` showed no unresolved paths and `cat README.md` printed the resolved line.
 
-**Important:** Task 5's conflict-resolution merge was verified from user-provided local terminal output, but was not part of remote `main` when the handoff was prepared. Do not claim that it was published. No force-push or branch deletion was performed by this handoff.
+**Publication update (November 22, 2026):** Task 5's conflict-resolution branch was subsequently merged into `main` by the repository owner during Week 1 consolidation. The exercise commits remain available in `main` history. The temporary practice branches were deleted afterward.
