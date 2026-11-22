@@ -1,1 +1,1 @@
-Day 3: Practicing Git branches and merges.
+Day 3: Practicing conflict resolution on branch B.
