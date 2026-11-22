@@ -1,1 +1,1 @@
-Day 3: Practicing conflict resolution on branch B.
+Day 3: Practicing conflict resolution on branches A and B.
