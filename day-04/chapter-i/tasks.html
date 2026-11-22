@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>BHA task form</title>
+  </head>
+  <body>
+    <h1>Add a task</h1>
+    <form id="task-form">
+      <label for="task-title">Title</label>
+      <input id="task-title" name="title">
+      <label for="minutes">Estimated minutes</label>
+      <input id="minutes" name="minutes" type="number" min="1" step="1">
+      <button type="submit">Add task</button>
+    </form>
+    <p id="message" role="status"></p>
+    <ul id="tasks"></ul>
+    <p id="total">Total estimated minutes: 0</p>
+    <script>
+      const form = document.querySelector("#task-form");
+      const titleInput = document.querySelector("#task-title");
+      const minutesInput = document.querySelector("#minutes");
+      const message = document.querySelector("#message");
+      const list = document.querySelector("#tasks");
+      const totalElement = document.querySelector("#total");
+      const tasks = [];
+
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const title = titleInput.value.trim();
+        const minutesText = minutesInput.value.trim();
+        const minutes = Number(minutesText);
+        if (title === "" || minutesText === "" ||
+            !Number.isInteger(minutes) || minutes <= 0) {
+          message.textContent = "Enter a title and a positive whole number of minutes.";
+          return;
+        }
+        const task = { title, minutes };
+        tasks.push(task);
+        const item = document.createElement("li");
+        item.textContent = `${task.title}: ${task.minutes} minutes`;
+        list.append(item);
+        const total = tasks.reduce(
+          (sum, task) => sum + task.minutes,
+          0
+        );
+        totalElement.textContent = `Total estimated minutes: ${total}`;
+        message.textContent = `${tasks.length} task(s) added.`;
+        form.reset();
+        titleInput.focus();
+      });
+    </script>
+  </body>
+</html>
