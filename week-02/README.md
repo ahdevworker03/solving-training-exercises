@@ -1,6 +1,6 @@
 # Week 2 — TypeScript, asynchronous JavaScript and reliability
 
-**Status:** Planned; exercises and project not started.
+**Status:** In progress. Day 1 TypeScript Chapters A–C and all 12 exercise/check submissions reviewed; the strict practice project passed local type checking. Days 2–7 and Reliable Request Lab remain pending.
 
 ## Official sources and sequence
 
