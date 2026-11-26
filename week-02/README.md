@@ -1,6 +1,11 @@
 # Week 2 — TypeScript, asynchronous JavaScript and reliability
 
-**Status:** In progress. Day 1 TypeScript Chapters A–C and all 12 exercise/check submissions reviewed; the strict practice project passed local type checking. Days 2–7 and Reliable Request Lab remain pending.
+**Status:** In progress. Days 1–2 (TypeScript A–F, 24/40 official items) attempted and reviewed; all current source modules pass strict compilation and execute. Day 2 compiler diagnostics and the initial RequestResult sketch are recorded; live requests and runtime response validation remain pending. Days 3–7 remain pending; instructor review is not yet recorded.
+
+- [Day 1 update](day-01/daily-update.md) · [Written answers](day-01/written-answers.md)
+- [Day 2 update](day-02/daily-update.md) · [Written answers](day-02/written-answers.md) · [Compiler evidence](day-02/compiler-evidence.md) · [RequestResult sketch](ts-practice/src/request-result.mts)
+
+From `week-02/ts-practice/`, run `npm ci` when dependencies are absent, then `npx tsc -p . --noEmit` and `npx tsc -p .`. Run a specific emitted module using `node dist/request-result.mjs` (synthetic model examples only).
 
 ## Official sources and sequence
 
