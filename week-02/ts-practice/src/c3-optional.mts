@@ -15,3 +15,8 @@ const variableName: product ={
 }
 
 console.log(variableName);
+
+const explicitUndefined: { description?: string | undefined } = {
+  description: undefined,
+};
+console.log(explicitUndefined);

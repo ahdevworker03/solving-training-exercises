@@ -9,7 +9,7 @@ My practical work, exercise solutions, debugging evidence, and weekly reports fo
 | Week | Official scope | Work and reports | Current status |
 | --- | --- | --- | --- |
 | **1** | JavaScript A–J, HTTP, Git and debugging | [Week 1](week-01/README.md) | Work published; instructor review pending |
-| **2** | TypeScript A–J, asynchronous JavaScript, Node testing, reliability | [Week 2](week-02/README.md) | In progress; Days 1–2 reviewed, Day 3 next |
+| **2** | TypeScript A–J, asynchronous JavaScript, Node testing, reliability | [Week 2](week-02/README.md) | In progress; TypeScript A–J reviewed and verified, Day 4 next |
 | **3** | React foundations, state, effects and API requests | [Week 3](week-03/README.md) | Planned; not started |
 | **4** | React routing, query state, forms, tests and capstone review | [Week 4](week-04/README.md) | Planned; not started |
 

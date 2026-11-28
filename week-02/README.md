@@ -1,11 +1,13 @@
 # Week 2 — TypeScript, asynchronous JavaScript and reliability
 
-**Status:** In progress. Days 1–2 (TypeScript A–F, 24/40 official items) attempted and reviewed; all current source modules pass strict compilation and execute. Day 2 compiler diagnostics and the initial RequestResult sketch are recorded; live requests and runtime response validation remain pending. Days 3–7 remain pending; instructor review is not yet recorded.
+**Status:** In progress. Days 1–3: all 40 TypeScript A–J items reviewed and audited; strict project compiles and all 27 modules execute. Product parser and synthetic response boundary verified. Days 4–7, live HTTP integration and instructor review remain pending.
 
 - [Day 1 update](day-01/daily-update.md) · [Written answers](day-01/written-answers.md)
 - [Day 2 update](day-02/daily-update.md) · [Written answers](day-02/written-answers.md) · [Compiler evidence](day-02/compiler-evidence.md) · [RequestResult sketch](ts-practice/src/request-result.mts)
 
-From `week-02/ts-practice/`, run `npm ci` when dependencies are absent, then `npx tsc -p . --noEmit` and `npx tsc -p .`. Run a specific emitted module using `node dist/request-result.mjs` (synthetic model examples only).
+- [Day 3 update](day-03/daily-update.md) · [Written answers](day-03/written-answers.md) · [40-item audit](day-03/exercise-audit.md) · [Verification evidence](day-03/verification-evidence.md)
+
+From `week-02/ts-practice/`, run `npm ci` when dependencies are absent, then `npx tsc -p . --noEmit` and `npx tsc -p .`. Run `node dist/i2-verify-product.mjs` (10 checked cases), `node dist/i3-assertion-boundary.mjs` (unsafe-input rejection and valid uppercase), or `node dist/request-result.mjs` (17 checked synthetic response cases; no network). For J1/J2 use `node dist/j1-product-list-props.mjs` and `node dist/j2-product-list-state.mjs` separately.
 
 ## Official sources and sequence
 
